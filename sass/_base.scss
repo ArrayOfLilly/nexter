@@ -38,12 +38,15 @@ body {
     grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
 
     // width: min 1140px / 16 = approx. 140px = 14rem
-    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(
+    grid-template-columns:
+        [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(
             8,
             [col-start] minmax(min-content, 14rem) [col-end]
-        ) [center-end] minmax(6rem, 1fr) [full-end];
+        )
+        [center-end] minmax(6rem, 1fr) [full-end];
 
-    & > * {
+    //Test
+    /* & > * {
         padding: 20px;
-    }
+    } */
 }
