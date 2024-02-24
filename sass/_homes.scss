@@ -14,6 +14,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 3.5rem;
 
+    @media only screen and (max-width: $bp-small) {
+        margin: 0 2rem;
+    }
+
     &__img {
         width: 100%;
 
@@ -78,9 +82,6 @@
         width: 2rem;
 
         // margin-right: 1rem;
-    }
-
-    p {
     }
 
     &__btn {
